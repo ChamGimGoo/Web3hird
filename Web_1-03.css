@@ -1,0 +1,128 @@
+*{margin: 0px; padding: 0px;}
+body{font-family: 'Verdana'; font-size: 16px;
+    color:black; line-height: 28px;}
+a{text-decoration: none;}
+img{
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+ul{overflow: hidden;float: right;}
+li{
+    list-style: none;
+    float: left;
+    padding: 5px 30px;
+}
+header{width: 100%;}
+header>div{
+    width: 1180px; height: 120px;
+    overflow: hidden;
+    margin:0 auto;
+}
+header>div>.hlbox{
+    width: 300px; height: 120px;
+    float: left;
+}
+header >div > .hlbox > h1{
+    margin-top:75px;
+    margin-left:10px;
+}
+header >div>.hrtbox{
+    float: left;
+    width: 880px; height: 40px;
+}
+header >div>.hrtbox>ul>li a{
+    font-size: 15px;
+    color:rgb(0,0,0,0.4);   
+}
+.hrtbox>ul>li a:hover{
+    color: aqua;
+}
+header>div> .hrbbox{
+    width: 880px; height: 80px;
+    float: left;
+}
+nav{
+    margin: 0 auto; overflow: hidden;
+
+}
+nav >ul{
+    margin-top:30px;
+}
+nav>ul>li>a{
+    color: black;
+}
+nav>ul>li>a:hover{
+    color: palegreen;
+}
+main{
+    width: 100%;
+    background-image: url("Resource\ 1-03/bg_main.png");
+    background-size: 100% 590px;
+    background-repeat: no-repeat;
+}
+main>.title{
+    width: 800px; height: 300px;
+    margin: 0 auto;
+    padding-top: 150px;
+    color: white;
+    font-size: 80px; line-height: 80px;
+}
+.title>div{
+    position: relative;
+    margin-top:10px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+section{
+    width: 1180px; height: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+article{
+    width:230px; height: 163px;
+    margin-left: 32.25px;
+    margin-right: 32.25px;
+    float:left;
+    text-align: left;
+}
+
+footer{
+    margin-top: 30px;
+    width: 100%;
+    background-color: darkgray;
+    color: aliceblue;
+}
+footer> .footer_box{
+    width: 1000px; height: 100px;
+    margin:0 auto; overflow: hidden;
+}
+footer> .footer_box> h1{
+    position: relative;
+    top:50px; left:10px;
+}
+.f_left{
+    float:right;
+    position: relative;
+    right:20px;
+    top:15px;
+}
+.f_left li{
+    padding: 13px;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.f_left li>a{
+    color:white;
+}
+.f_left li> a:hover{
+    color: aqua;
+}
+footer>.f_text{
+    margin: 0 auto;
+    width: 1000px;
+}
