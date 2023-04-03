@@ -150,6 +150,7 @@ section> .article6{
     margin: 160px auto;
     width: 700px;
     font-size: 50px;
+    text-shadow: 2px 2px 2px black;
 }
 section> .article7{
     width: 1000px; height:361px;
