@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px;}
+*{margin: 0; padding: 0;}
 body{font-family: 'Verdana'; font-size: 16px;
     color:black; line-height: 28px;}
 a{text-decoration: none;}
@@ -13,116 +13,114 @@ li{
     float: left;
     padding: 5px 30px;
 }
-header{width: 100%;}
-header>div{
+header{
     width: 1180px; height: 120px;
     overflow: hidden;
+    background: white;
     margin:0 auto;
+    text-align: center;
 }
-header>div>.hlbox{
-    width: 300px; height: 120px;
-    float: left;
+
+header > h1{
+    vertical-align: bottom;
+    margin-top:77px;
+    margin-left: 10px;
+    float:left;
+    text-decoration: none;
 }
-header >div > .hlbox > h1{
-    margin-top:75px;
-    margin-left:10px;
+
+header>ul{
+    margin-top:10px;
 }
-header >div>.hrtbox{
-    float: left;
-    width: 880px; height: 40px;
-}
-header >div>.hrtbox>ul>li a{
+header>ul>li a{
     font-size: 15px;
     color:rgb(0,0,0,0.4);   
 }
-.hrtbox>ul>li a:hover{
-    color: aqua;
-}
-header>div> .hrbbox{
+header>nav{
     width: 880px; height: 80px;
     float: left;
+    margin: 12px auto; overflow: hidden;
 }
-nav{
-    margin: 0 auto; overflow: hidden;
-
+header > nav >ul{
+    margin-top:20px;
 }
-nav >ul{
-    margin-top:30px;
-}
-nav>ul>li>a{
+header > nav>ul>li>a{
     color: black;
 }
-nav>ul>li>a:hover{
+header > nav>ul>li>a:hover{
     color: palegreen;
 }
+
 main{
-    width: 100%;
+    width: 100%; height: 590px;
     background-image: url("Resource\ 1-03/bg_main.png");
     background-size: 100% 590px;
     background-repeat: no-repeat;
 }
-main>.title{
+main> div{
     width: 800px; height: 300px;
     margin: 0 auto;
     padding-top: 150px;
     color: white;
     font-size: 80px; line-height: 80px;
+    font-weight: 550;
 }
 .title>div{
-    position: relative;
     margin-top:10px;
     font-size: 25px;
     line-height: 30px;
+    font-weight: 400;
 }
 
 section{
     width: 1180px; height: 450px;
-    margin: 0 auto;
-    margin-top: 200px;
+    margin: 50px auto;
     text-align: center;
     overflow: hidden;
 }
 article{
     width:230px; height: 163px;
-    margin-left: 32.25px;
-    margin-right: 32.25px;
+    margin: 50px 32.25px 0;
     float:left;
     text-align: left;
 }
+article>h1{
+    margin-top:15px;
+    margin-bottom:10px;
+}
 
 footer{
-    margin-top: 30px;
     width: 100%;
-    background-color: darkgray;
+    background-color: gray;
     color: aliceblue;
 }
 footer> .footer_box{
     width: 1000px; height: 100px;
     margin:0 auto; overflow: hidden;
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 footer> .footer_box> h1{
     position: relative;
-    top:50px; left:10px;
+    top:50px;
+    font-size: 30px;
 }
-.f_left{
-    float:right;
+.footer_box > ul{
     position: relative;
-    right:20px;
-    top:15px;
+    float:right;
+    top:30px;
+    margin-right: -10px;
 }
-.f_left li{
-    padding: 13px;
+.footer_box > ul > li{
     font-size: 13px;
-    line-height: 40px;
+    padding: 10px;
 }
 
-.f_left li>a{
+ul > li>a{
     color:white;
-}
-.f_left li> a:hover{
-    color: aqua;
-}
-footer>.f_text{
-    margin: 0 auto;
-    width: 1000px;
+}/*마지막에 적용이 아닌 계층에 따라 적용*/
+ul >li> a:hover{
+    color: skyblue;
 }
