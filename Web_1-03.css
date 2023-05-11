@@ -1,0 +1,132 @@
+*{margin: 0; padding: 0;font-family: 'Verdana';}
+body{font-size: 16px;
+    color:black; line-height: 28px;}
+a{text-decoration: none;}
+img{
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+.inner_box{
+    position:relative;
+    margin:0 auto;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+}
+header>.inner_box{
+    width: 1180px;height: 120px;
+}
+.inner_box> h1{
+    float:left;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+ul{
+    position: absolute;
+    float: right;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+    float: left;
+}
+ul.util{
+    top:20px;
+    right: 30px;
+}
+.util>li{
+    padding-left: 25px;
+}
+.util>li>a{
+    color:rgba(0, 0, 0, 0.4);   
+}
+
+ul.glb{
+    font-size: 18px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.glb>li{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.glb>li>a{
+    color:rgba(0, 0, 0, 0.582);   
+    font-weight: bold;
+}
+.glb>li>a:hover{
+    color:rgba(126, 172, 58, 0.882); 
+}
+main{
+    width: 100%; height: 590px;
+    background-image: url("Resource\ 1-03/bg_main.png");
+    margin-top:10px;
+}
+main> .inner_box{
+    width: 800px; height: 300px;
+    margin: 0px auto;
+    padding-top: 150px;
+    color: white;
+    font-size: 80px; line-height: 80px;
+    font-weight: 550;
+}
+.inner_box>div{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+section{
+    width: 1180px; height: 450px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+article{
+    width:230px; height: 163px;
+    margin: 50px 32.25px 0;
+    float:left;
+    text-align: left;
+}
+article>h1{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    color: aliceblue;
+}
+
+footer> .inner_box{
+    width: 1000px; height: 100px;
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 10px;
+    padding-top:15px;
+}
+footer> .inner_box> h1{
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    bottom: 15px;
+}
+
+ul.footLi{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.footLi>li{
+    padding-left: 25px;
+}
+.footLi>li>a{
+    color:rgba(0, 0, 0, 0.4);   
+}
+.footLi>li>a:hover{
+    color:blanchedalmond;
+}
