@@ -1,15 +1,13 @@
-*{margin: 0; padding: 0;font-family: 'Verdana';}
+*{margin: 0 auto; padding: 0;font-family: 'Verdana';}
 body{font-size: 16px;
     color:black; line-height: 28px;}
 a{text-decoration: none;}
 img{
     display: block;
     border: none;
-    margin: 0 auto;
 }
 .inner_box{
     position:relative;
-    margin:0 auto;
     overflow: hidden;
 }
 header{
@@ -19,7 +17,6 @@ header>.inner_box{
     width: 1180px;height: 120px;
 }
 .inner_box> h1{
-    float:left;
     position: absolute;
     bottom: 15px;
     left: 10px;
@@ -66,28 +63,35 @@ main{
     background-image: url("Resource\ 1-03/bg_main.png");
     margin-top:10px;
 }
-main> .inner_box{
+main> .main_box{
     width: 800px; height: 300px;
     margin: 0px auto;
     padding-top: 150px;
     color: white;
-    font-size: 80px; line-height: 80px;
-    font-weight: 550;
 }
-.inner_box>div{
+
+.main_title_text{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+
+}
+.main_text{
     font-size: 25px;
     line-height: 30px;
-    font-weight: 400;
 }
 
 section{
     width: 1180px; height: 450px;
-    margin: 50px auto;
-    text-align: center;
-    overflow: hidden;
+    margin-top: 50px;
 }
+
+section>h1{
+    text-align: center;
+}
+
 article{
-    width:230px; height: 163px;
+    width:230px;
     margin: 50px 32.25px 0;
     float:left;
     text-align: left;
